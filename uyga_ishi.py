@@ -115,7 +115,6 @@ class Main( QWidget ):
                 return data
             else:
                 return []
-#'-----------------------------------------------------------------'
         
     def SaveSearch(self):
         if self.radBtn1.isChecked():
@@ -123,7 +122,6 @@ class Main( QWidget ):
         else:
             self.BtnSaveSerach.setText("Save")
 
-#'--------------------------------------------------------'
             
     def Postion(self):
         if self.flag:
@@ -139,40 +137,8 @@ class Main( QWidget ):
             self.lini2.move(400,160)
             self.flag = True
 
-#'----------------------------------------------------------'
-
 
 app = QApplication([])
 oyna = Main()
 oyna.show()
 app.exec()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
